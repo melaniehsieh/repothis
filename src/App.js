@@ -13,3 +13,6 @@ function App() {
 }
 
 export default App;
+
+// npm start
+// cd api > venv\Scripts\activate > flask run --no-debugger

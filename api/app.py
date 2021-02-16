@@ -18,7 +18,6 @@ client = ExpertAiClient()
 g = Github(os.environ["GITHUB_TOKEN"])
 
 
-
 def _create_dictionary_table(text_string):
     stop_words = set(stopwords.words("english"))
     words = word_tokenize(text_string)
